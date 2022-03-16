@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "aceac0d221723ac7582c7cb1f744f327ab3a1144"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "dotnet-watch/2.1.0-rtm-30799": {
+        "dependencies": {
+          "Internal.AspNetCore.Sdk": "2.1.0-rtm-15789",
+          "Microsoft.Extensions.CommandLineUtils.Sources": "2.1.0",
+          "Microsoft.Extensions.Process.Sources": "2.1.0"
+        },
+        "runtime": {
+          "dotnet-watch.dll": {}
+        }
+      },
+      "Internal.AspNetCore.Sdk/2.1.0-rtm-15789": {
+        "dependencies": {
+          "Microsoft.AspNetCore.BuildTools.ApiCheck": "2.1.0-rtm-15789"
+        }
+      },
+      "Microsoft.AspNetCore.BuildTools.ApiCheck/2.1.0-rtm-15789": {},
+      "Microsoft.Extensions.CommandLineUtils.Sources/2.1.0": {},
+      "Microsoft.Extensions.Process.Sources/2.1.0": {}
+    }
+  },
+  "libraries": {
+    "dotnet-watch/2.1.0-rtm-30799": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Internal.AspNetCore.Sdk/2.1.0-rtm-15789": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ghW/A4D3NSoiYr61E+M52VvFILd/5W8fewa8h2iK//UNhNIOjnWHIB5sF+z9bu0yX/sgCnpgLgRnuE7ojcCIYA==",
+      "path": "internal.aspnetcore.sdk/2.1.0-rtm-15789",
+      "hashPath": "internal.aspnetcore.sdk.2.1.0-rtm-15789.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.BuildTools.ApiCheck/2.1.0-rtm-15789": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aWXygwNrtMd9682RMilwsiewf8me0OxhiLsISu8DdboOn2mz9ptk3aS+ZL3PV+WlaGzjZziC8Z14yU/Skb2rBg==",
+      "path": "microsoft.aspnetcore.buildtools.apicheck/2.1.0-rtm-15789",
+      "hashPath": "microsoft.aspnetcore.buildtools.apicheck.2.1.0-rtm-15789.nupkg.sha512"
+    },
+    "Microsoft.Extensions.CommandLineUtils.Sources/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6OUx4X3VgOaHd5uaftIlq/mcms2FS/Y+7diPQAQ/V4njvaa8ZpKP98+wapWq6pKiGYm3Yx/rXi5o3E6jp3Zqxw==",
+      "path": "microsoft.extensions.commandlineutils.sources/2.1.0",
+      "hashPath": "microsoft.extensions.commandlineutils.sources.2.1.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Process.Sources/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-br7IYU+NLVqnbvXFWB0OJ9TeEgCuSa8cElKuikaoZKQgsIENYOg3Cl6XrerFDsVz7N9FYg8SJEw00dQ1nHlwJg==",
+      "path": "microsoft.extensions.process.sources/2.1.0",
+      "hashPath": "microsoft.extensions.process.sources.2.1.0.nupkg.sha512"
+    }
+  }
+}
